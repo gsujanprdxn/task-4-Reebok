@@ -155,3 +155,271 @@ sub { bottom: -.25em; }
   font-style: normal;
   font-weight: bold;
 }
+
+.wrapper{
+  width: 74%;
+  margin: auto;
+  max-width: 1010px;
+}
+
+li{
+  list-style: none;
+}
+
+header{background-color: rgb(241,241,242);}
+
+.search-header{
+  height: 50px;
+  box-sizing: border-box;
+  color:black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.search-header img{margin: 0px;}
+
+.searchbar input{
+  border: none;
+  padding: 5px 0px;
+  background: rgb(221,221,221);
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.searchbar button{
+  float: right;
+  border: none;
+  background: rgb(39,39,39);
+  padding: 5px 5px;
+  cursor: pointer;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.search-header div{margin: 0px 10px;}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.wishlist{
+  position: absolute;
+  right: 0px;
+}
+
+.wishlist a{
+  padding: 5px;
+  font-size: 12px;
+}
+
+.search-header h2{
+  margin-left: 10px;
+  color: rgb(107,110,99);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+header nav ul{
+  display: flex;
+  background: rgb(0,0,0);
+  color: aliceblue;
+  height: 33px;
+  align-items: center;
+}
+
+header nav ul li button{
+  border: none;
+  background:rgb(0,0,0);
+  color: white;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+header .wrapper nav ul li:last-child{
+position: relative;
+left: 35px;
+}
+
+.dropdownmenu a{
+  display: block;
+  text-decoration: none ;
+  font-size: 12px;
+  float: none;
+}
+
+.dropdownmenu{display: none;}
+
+.banner{
+  background: url(https://dummyimage.com/1348x375/D6DAC7/000000.jpg&text=FAST+FLEXWEAVE);
+  height: 375px;
+}
+
+.banner a{
+  border: 1px solid white;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  height: 60px;
+  padding-top: 20px;
+  text-align: center;
+  background: rgb(107,110,99);
+  position: relative;
+  top: 200px;
+  left: 490px;
+  margin-right: 20px;
+  opacity: 0.9;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.banner .wrapper div{
+  position: relative;
+  top: 270px;
+  width: 32%;
+  border: 1px solid black;
+  background: rgb(109,112,101);
+  padding: 5px 0px;
+  border-radius: 12px;
+  padding-left: 10px;
+  opacity: 0.9;
+}
+
+.categories .wrapper > ul{
+  padding:55px 0px 10px 0px ;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.categories ul li > ul{
+  float: right;
+  padding: 10px;
+  color: rgb(142,139,139); 
+}
+
+.categories ul li h3{color: rgb(142,139,139);}
+
+.fitness ul{
+  display: flex;
+  position: relative;
+  top: 250px;
+  justify-content: space-between;
+  background-color: rgb(228,228,228);
+  align-items: center;
+}
+
+.reebok_world ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reebok_world h2{
+  font-size: 18px;
+  margin-top: 52px;
+  margin-bottom: 30px;
+  color: #8B8B8C;
+}
+
+.reebok_world ul h3{
+  padding: 20px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.contact .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .wrapper:last-child{flex: 1;}
+
+.sitemap .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sitemap a{
+  color: rgb(199, 213, 216);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.sitemap h3{
+  font-size: 15px;
+}
+
+.sitemap .wrapper > div{
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+footer{
+  height: 205px;
+  background: rgb(55,56,51);
+}
+.signup{background-color: rgb(66,66,61); height: 95px;line-height: 95px;}
+
+.signup h3{
+  float: left;
+  font-size: 22px;
+  color: rgb(255,255,255);
+}
+
+.signup h3 span{
+  color: red;
+  margin-right: 10px;
+}
+
+.signup a{
+  border: 1px solid red;
+  color: rgb(255,255,255);
+  width: 150px;
+  height: 30px;
+  padding: 10px 50px;
+  position: relative;
+  left: 200px;
+  background-color:rgb(194,36,54);
+  border-radius: 5px;
+}
+
+.signup a i{
+  padding-left: 20px;
+}
+
+.card_container img{
+  margin-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.bottom_footer p{float: left;}
+.bottom_footer img{margin-left: 10px;}
+.bottom_footer{padding-left:130px}
+.sitemap{background-color: rgb(55,56,51);}
+
+.contact{
+  background-color: rgb(50,51,47);
+  height: 55px;
+  line-height: 55PX;
+  color: rgb(255,255,255);
+}
+
+.reebok_world{background-color: rgb(255,255,255);}
+.categories{background-color: rgb(235,236,237);}
+
+.fitness{
+  background-image:url(https://dummyimage.com/1349x300/ace2f2/0011ff.jpg);
+  height: 300px;
+}
